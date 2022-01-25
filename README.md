@@ -2,7 +2,9 @@
 
 # counting_mC_within_genes.pl is the Perl script for counting methylated C over total C within genes in Arabidopsis thaliana.
 # use tair10_gene_model_startsort.txt for the reference information.
-# The methylation input data (input1) needs to include "Chr position ori methylC totalC context".
+# Usage : perl counting_mC_within_genes.pl INPUT1 tair10_gene_model_startsort.txt
+
+# The methylation input data (INPUT1) needs to include "Chr position ori methylC totalC context".
 # The context should be X (CG), Y(CHG), Z(CHH).
 # The file should be sorted by Chr and position.
 # example of INPUT1 : Chr1 109 + 17 19 X
